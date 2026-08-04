@@ -1,3 +1,4 @@
+// Nova AI Workspace Main Controller
 document.addEventListener("DOMContentLoaded", function () {
 
     console.log("Nova AI Workspace Loaded");
