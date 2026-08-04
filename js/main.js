@@ -214,3 +214,28 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 
 });
 smoothScroll();
+fadeIn(hero);
+cards.forEach(card => {
+
+    slideUp(card);
+
+});
+floating(dashboard);
+buttons.forEach(button => {
+
+    scaleHover(button);
+
+});
+cards.forEach(card => {
+
+    tilt(card);
+
+});
+const logo = document.querySelector(".logo");
+
+
+if (logo) {
+
+    pulseGlow(logo);
+
+              }
