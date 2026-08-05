@@ -441,3 +441,43 @@ body::after {
     }
 
                                  }
+@media (max-width: 768px) {
+
+    .navbar {
+        position: relative;
+    }
+
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 20px;
+        right: 20px;
+
+        flex-direction: column;
+        gap: 20px;
+
+        padding: 30px;
+
+        background: rgba(20, 20, 40, 0.8);
+        backdrop-filter: blur(20px);
+
+        border-radius: 25px;
+
+        box-shadow:
+        0 0 30px rgba(170, 0, 255, 0.8);
+
+    }
+
+
+    nav a {
+        text-align: center;
+    }
+
+
+    .menu-btn {
+        display: block;
+    }
+
+    }
